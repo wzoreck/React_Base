@@ -12,4 +12,4 @@ export default function Routes() {
             <Route path='*' component={Page404} />
         </Switch>
     );
-};
+}
