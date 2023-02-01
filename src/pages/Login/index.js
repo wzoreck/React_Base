@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Title } from './styled';
 import { Container } from '../../styles/GlobalStyles';
-
+import { toast } from 'react-toastify';
 
 export default function Login() {
     return (

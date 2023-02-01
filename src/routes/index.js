@@ -9,7 +9,7 @@ export default function Routes() {
     // localhost:3000/ vai renderizar o componente de login
     return(
         <Switch>
-            <MyRoute exact path='/' component={Login} isClosed />
+            <MyRoute exact path='/' component={Login} />
             <MyRoute path='*' component={Page404} />
         </Switch>
     );
